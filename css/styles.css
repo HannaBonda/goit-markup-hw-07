@@ -962,6 +962,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  padding: 12px 24px 12px 24px;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -1028,9 +1029,6 @@ body {
     row-gap: 16px;
     column-gap: 24px;
   }
-  .portfolio-button {
-    padding: 8px 16px 8px 16px;
-  }
   .projects-page {
     row-gap: 48px;
     padding-top: 48px;
@@ -1046,9 +1044,6 @@ body {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
-  }
-  .portfolio-button {
-    padding: 12px 24px 12px 24px;
   }
   .projects-page {
     column-gap: 24px;
@@ -1156,7 +1151,7 @@ body {
 }
 
 /* Mobile */
-@media screen and (min-width: 427px) {
+@media screen and (min-width: 330px) {
   .modal {
     width: 392px;
     height: 586px;
