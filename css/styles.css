@@ -756,6 +756,7 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  max-width: 1440px;
 }
 .footerlogo-link {
   font-family: "Raleway";
@@ -918,12 +919,12 @@ body {
     row-gap: 72px;
   }
   .logo-footer {
-    padding-left: 108px;
-    padding-right: 24px;
+    margin-right: 24px;
+    margin-left: 108px;
   }
   /* Modal footer */
   .footer-form {
-    padding-left: 108px;
+    margin-left: 108px;
   }
   .footer-modal-topic {
     margin-left: 0;
@@ -951,12 +952,11 @@ body {
     flex-wrap: nowrap;
   }
   .logo-footer {
-    padding-right: 120px;
+    margin-right: 120px;
   }
   /* Modal footer */
   .footer-form {
-    padding-left: 80px;
-    padding-top: 0;
+    margin-left: 80px;
   }
   .footer-modal-input {
     min-width: 264px;
