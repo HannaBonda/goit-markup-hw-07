@@ -750,10 +750,12 @@ body {
   text-decoration: none;
   padding-top: 96px;
   padding-bottom: 96px;
+  width: 100%;
+  margin: 0 auto;
+  /* display: flex; */
 }
 .container-footer {
   display: flex;
-  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   max-width: 1440px;
@@ -884,7 +886,6 @@ body {
   .container-footer {
     flex-direction: column;
     align-items: center;
-    width: 100%;
     row-gap: 72px;
   }
   .logo-footer {
@@ -960,7 +961,7 @@ body {
     margin-left: 80px;
   }
   .footer-modal-input {
-    min-width: 264px;
+    max-width: 264px;
   }
 }
 .footer-submit:hover,
